@@ -1,0 +1,530 @@
+*{
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* header */
+.search-bar {
+	background-color: #fff;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	
+}
+
+.search-bar input {
+	border: none;
+	outline: none;
+	flex-grow: 1;
+	padding-left: 10px;
+}
+.search-bar i{
+	color: #000;
+}
+
+.search-bar .bi-search {
+	color: #aaa;
+}
+
+.header {
+	color: white;
+	padding: 10px 0;
+}
+
+.header .phone-number {
+	font-weight: 500;
+}
+
+.btn-signup {
+	background-color: white;
+	color: red;
+	border: none;
+	border-radius: 20px;
+	padding: 5px 15px;
+	font-weight: bold;
+}
+
+.btn-signup:hover {
+	background-color: #ffcccc;
+	color: red;
+}
+
+
+/* navbar */
+.navbar-brand img {
+	width: 150px;
+	height: 95px;
+}
+
+.nav-item a {
+	font-weight: 500;
+	color: #000;
+}
+.nav-item a:hover {
+	color: #007bff;
+}
+
+
+/* .content {
+	background-color: #f8f9fa;
+	padding: 20px;
+}
+.offer-text {
+	color: #ff0000;
+	font-weight: bold;
+} */
+
+.bg-img {
+	background: url('image/slider1.avif') no-repeat; /* Replace with your image URL */
+	background-size: cover;
+	/* background-position: center; */
+	/* min-height: 300px; */
+}
+
+/* banner */
+.banner{
+	/* width: 100%;
+	margin: 0 auto; */
+	/* padding: 10px; */
+
+}
+.custom-card {
+	border-radius: 10px;
+	padding: 20px;
+	color: #000;
+}
+
+.custom-card img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.custom-card h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.custom-card .btn {
+	background-color: #0056b3;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.custom-card .btn:hover {
+	background-color: #003f7f;
+}
+
+/* shop by pet */
+.circle {
+	width: 150px;
+	height: 150px;
+	background-color: #ff4d4d; /* Red background */
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.circle img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.pet-name {
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.heading {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+/* best seller */
+.category-div {
+	width: 85vw;
+	justify-content: center;
+	margin-inline: auto;
+	margin-top: 30px;
+}
+
+.category-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: auto;
+	/* width: 82vw; */
+	margin-inline: auto;
+	margin: 0px 20px;
+	/* background-color: pink; */
+}
+
+.list-2 {
+	width: 100%;
+	margin-inline: auto;
+	white-space: nowrap;
+	/* background-color: red; */
+}
+
+.list-2>div {
+	display: inline-block;
+	margin: 10px;
+}
+
+.my-card {
+	width: 180px;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+
+.time-taken {
+	font-size: 9px;
+	font-weight: 700;
+	color: rgb(54, 54, 54);
+	padding: 1px 3px;
+}
+
+.product-name {
+	overflow: hidden;
+	color: rgb(31, 31, 31);
+	font-weight: 600;
+	font-size: 13px;
+	width: 155px;
+	height: 36px;
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.product-weight {
+	color: #666666;
+	font-size: 11px;
+}
+
+.product-price {
+	color: rgb(31, 31, 31);
+	font-weight: 600;
+	font-size: 12px;
+}
+
+
+
+/* latest blog */
+.card {
+	border: none;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+.card-img-top {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.card-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+.card-text {
+	font-size: 14px;
+	color: #6c757d;
+}
+.btn-primary {
+	background-color: #007bff;
+	border: none;
+}
+
+
+/* recent review */
+.review-card {
+	border: none;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 20px;
+	position: relative;
+	background-color: #fff;
+}
+.review-card .quote-icon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 40px;
+	color: red;
+}
+.review-card .card-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+.review-card .card-text {
+	font-size: 14px;
+	color: #6c757d;
+}
+.review-card .rating {
+	color: #FFD700;
+}
+.review-card img {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+
+
+  /* contact section */
+  .contact .info-item {
+    padding: 20px 0 30px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact .info-item i {
+    font-size: 20px;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    border: 2px dotted color-mix(in srgb, var(--accent-color), transparent 40%);
+  }
+  
+  .contact .info-item h3 {
+    font-size: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  /* .contacts{
+    color: blue;
+    font-weight: bold;
+  } */
+  .contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  
+  .contact .php-email-form {
+    background-color: var(--surface-color);
+    height: 100%;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+
+
+	@media(max-width:767px){
+    
+    .whatsapp_float {
+      display: none;
+    }
+    .whatsapp-icon {
+       display: none;
+    }
+    
+    .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+    }
+  
+     /* iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    } */
+    /* footer{
+      width: 100%;
+    } */
+
+    .map-con iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+    .container{
+      text-align: center;
+    }
+  }
+
+  .map-con{
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    padding-bottom: 54%; /* 16:9 aspect ratio */
+  }
+  
+  .map-con iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+	@media(max-width:1000px) 
+  {
+     #contact{
+      margin-top: 40px;
+     }
+  }
+
+/* footer section */
+
+.footer {
+	background-color: #f9f9f5;
+	padding: 40px 0px;
+}
+.footer h5 {
+	font-weight: bold;
+	color: #ff4d4d;
+}
+.footer ul {
+	list-style: none;
+	padding: 0;
+}
+.footer ul li {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+.footer ul li i {
+	color: #ff4d4d;
+	margin-right: 8px;
+}
+
+/* li {
+	position: relative;
+	padding-left: 30px; 
+	margin-bottom: 10px;
+}
+
+li::before {
+	content: "<i class="fa-solid fa-check"></i>";
+	font-weight: 900; 
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+	color: green;
+} */
+
+.footer .newsletter {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer .newsletter input {
+	width: 70%;
+	max-width: 400px;
+	margin-right: 10px;
+}
+.footer .bottom-text {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #555;
+}
+
+/* search box */
+.search-box {
+	display: flex;
+	align-items: center;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+.search-box input {
+	border: none;
+	outline: none;
+	padding: 10px 15px;
+	flex: 1;
+	border-radius: 50px 0 0 50px;
+	font-size: 16px;
+}
+.search-box button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	background-color: #3366cc;
+	color: white;
+	border-radius: 0 50px 50px 0;
+	cursor: pointer;
+	font-size: 16px;
+}
+.search-box input::placeholder {
+	color: #aaa;
+}
+.search-box button:hover {
+	background-color: #224a99;
+}
+
+/* whatsapp */
+.whatsapp_float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+.whatsapp-icon {
+	margin-top: 16px;
+}
+
+@media(max-width:1024px){
+	#navbarNav{
+		width:100vw;
+	}
+	ul li .blog .loyalty{ 
+		display: none;
+	}
+}
+
+@media(max-width:767px){
+	.featured{
+    display: none;		
+	}
+}
+@media(max-width:768px){
+	.header{
+		display: none;
+	}
+	.banner{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.banner img{
+		width: 100%;
+	}
+
+	.sub{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding-bottom: 20px;
+	}
+	
+}
+
