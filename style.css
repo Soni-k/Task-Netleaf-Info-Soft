@@ -65,16 +65,6 @@
 	color: #007bff;
 }
 
-
-/* .content {
-	background-color: #f8f9fa;
-	padding: 20px;
-}
-.offer-text {
-	color: #ff0000;
-	font-weight: bold;
-} */
-
 .bg-img {
 	background: url('image/slider1.avif') no-repeat; /* Replace with your image URL */
 	background-size: cover;
@@ -82,13 +72,6 @@
 	/* min-height: 300px; */
 }
 
-/* banner */
-.banner{
-	/* width: 100%;
-	margin: 0 auto; */
-	/* padding: 10px; */
-
-}
 .custom-card {
 	border-radius: 10px;
 	padding: 20px;
@@ -122,7 +105,7 @@
 .circle {
 	width: 150px;
 	height: 150px;
-	background-color: #ff4d4d; /* Red background */
+	background-color: #ff4d4d; 
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -294,8 +277,7 @@
     border-radius: 4px;
     transition: all 0.3s ease-in-out;
     border-radius: 50%;
-    border: 2px dotted color-mix(in srgb, var(--accent-color), transparent 40%);
-  }
+	}
   
   .contact .info-item h3 {
     font-size: 20px;
@@ -304,10 +286,6 @@
     margin: 10px 0;
   }
   
-  /* .contacts{
-    color: blue;
-    font-weight: bold;
-  } */
   .contact .info-item p {
     padding: 0;
     margin-bottom: 0;
@@ -315,7 +293,6 @@
   }
   
   .contact .php-email-form {
-    background-color: var(--surface-color);
     height: 100%;
     padding: 30px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -339,14 +316,7 @@
       font-size: 22px;
     }
   
-     /* iframe {
-      width: 100vw;
-      height: 100vh;
-      border: none;
-    } */
-    /* footer{
-      width: 100%;
-    } */
+     
 
     .map-con iframe {
       width: 100vw;
@@ -360,8 +330,8 @@
 
   .map-con{
     position: relative;
-    width: 100%; /* Adjust the width as needed */
-    padding-bottom: 54%; /* 16:9 aspect ratio */
+    width: 100%; 
+    padding-bottom: 54%;
   }
   
   .map-con iframe {
@@ -402,22 +372,6 @@
 	color: #ff4d4d;
 	margin-right: 8px;
 }
-
-/* li {
-	position: relative;
-	padding-left: 30px; 
-	margin-bottom: 10px;
-}
-
-li::before {
-	content: "<i class="fa-solid fa-check"></i>";
-	font-weight: 900; 
-	position: absolute;
-	left: 0;
-	top: 0;
-	font-size: 16px;
-	color: green;
-} */
 
 .footer .newsletter {
 	text-align: center;
